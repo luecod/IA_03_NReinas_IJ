@@ -40,8 +40,8 @@ public class Main {
             board[gene.intValue()][i] = 1;
         }
 
-        System.out.println("The best solution has a fitness value of " + bestSolutionSoFar.getFitnessValue());
-        System.out.println("It contains the following: ");
+        System.out.println("La mejor solución tiene un valor de aptitud de " + bestSolutionSoFar.getFitnessValue());
+        System.out.println("Contiene el siguiente modelo: ");
 
         for (int[] row : board) {
             for (int field : row) {
